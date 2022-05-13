@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@900&family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Rokkitt:wght@200;400;700&display=swap');
+:root {
+  --primary-color: linear-gradient(
+    45deg,
+    rgb(13, 216, 206),
+    rgb(126, 236, 190)
+  );
+}
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--primary-color);
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  margin: 50px auto;
+  background: rgb(255, 255, 255);
+  padding: 20px 50px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px rgb(15 15 15);
+}
